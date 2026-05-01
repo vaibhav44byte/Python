@@ -7,7 +7,7 @@ print(numbers)
 
 # deleting key and values from dictionary
 numbers.pop('one','pluto')
-numbers.popitem()
+numbers.popitem()# delete the last entered key,value pair
 print(numbers)
 
 # Python has dictionary comprehensions with a syntax similar to the list comprehensions

@@ -50,4 +50,4 @@ print(Join)
 # concatination in python 
 print(claim + ' In this solar syatem')
 position = 9
-print(claim + ' Which is on '+str(position)+'th position')
+print(claim + ' Which is on '+str(position)+'th position')#when using an integer with string
