@@ -19,3 +19,13 @@ print(myindex)
 # Series (they are like lists)
 myseries = pd.Series([1, 2, 3, 4])
 print(myseries)
+
+# reading data files
+df = pd.read_csv('D:\\AI & ML\\Python\\Pandas\\test.csv')
+print(df)
+size = df.shape # it gives the how large the resulting DataFrame is
+print(size)
+rows = df.head(3) # it gives the first 3 rows of the DataFrame
+print(rows)
+lower = df.tail(2) # it gives the last 2 rows of the DataFrame
+print(lower)
