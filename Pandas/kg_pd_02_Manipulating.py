@@ -19,3 +19,17 @@ print(myvar.loc[0]) # to print the first row of the DataFrame
 print(myvar.loc[0,'Cities']) # to print the value in the 'Cities' column of the first row
 
 print(myvar.iloc[0,1]) # to print the value in the second column of the first row
+
+#myvar.set_index("Colleges", inplace=True)
+#print(myvar)
+
+# Conditional statements
+is_there = myvar.Cities == "Ujjain" # shows which rows have the value "Ujjain" in the 'Cities' column
+print(is_there)
+
+
+ # Assigning values
+#myvar['Cities'] = "Mumbai" # to change all the Cities name 
+#print(myvar)
+myvar.loc[0,"Cities"] = "Vidisha"
+print(myvar)
