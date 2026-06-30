@@ -31,5 +31,5 @@ print(is_there)
  # Assigning values
 #myvar['Cities'] = "Mumbai" # to change all the Cities name 
 #print(myvar)
-myvar.loc[0,"Cities"] = "Vidisha"
+myvar.loc[0,"Cities"] = "Vidisha" # Changes 1st city to "Vidisha"
 print(myvar)
