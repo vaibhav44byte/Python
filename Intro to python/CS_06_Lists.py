@@ -19,3 +19,10 @@ for i in LIST:
 
 # Joining two lists
 print(LIST + [2,3,4]) # Concatenation of lists
+print(LIST*3) # Repetition of list
+
+## List Manupulation
+LIST.append(5) # Adding element at the end of the list
+LIST[2] = 10 # Changing the value of an element
+LIST.pop(1) # Removing element at index 1
+print(LIST)
