@@ -10,3 +10,17 @@ def total_pay(hrs_pay):
 # for generating the output result on screen
 x = total_pay(10)
 print(x)
+
+## Pure and Impure functions
+# Pure functions --
+def pure_function(x,y):
+    return x*y
+
+print(pure_function(2,3))
+
+n = 10
+# Impure functions --
+def impure_function(x):
+    return x*n
+
+print(impure_function(2))
