@@ -19,3 +19,6 @@ L[1] = 'h'
 # traversing in a tuple
 for i in t3:
     print(i,end=' ')
+
+tup = (1, 2, 3, 4, 5) 
+print(tup[1:4]) # Slicing the tuple to get elements from index 1 to 3
