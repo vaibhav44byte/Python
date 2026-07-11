@@ -24,3 +24,9 @@ def impure_function(x):
     return x*n
 
 print(impure_function(2))
+
+
+def addnumbers(a,b):
+    return a+b
+
+print(addnumbers(2,3))
