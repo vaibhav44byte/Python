@@ -17,6 +17,7 @@ print(LIST[0]) # First element of the list
 for i in LIST:
     print(i, end=' ')
 
+print("Reverse list",LIST[::-1])
 # Joining two lists
 print(LIST + [2,3,4]) # Concatenation of lists
 print(LIST*3) # Repetition of list
