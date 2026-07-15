@@ -30,3 +30,9 @@ def addnumbers(a,b):
     return a+b
 
 print(addnumbers(2,3))
+
+## More in functions
+def my_function(fname):
+    print(fname + " Refsnes")
+
+my_function("Vaibhav")
