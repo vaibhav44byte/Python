@@ -24,5 +24,7 @@ print(solar_system.keys())
 print(solar_system.values())
 
 print(' '.join(sorted(solar_system.values())))
+chocolate = {'white':'white chocolate','dark':'dark chocolate','milk':'milk chocolate'}
+print(chocolate.keys())
 
 
